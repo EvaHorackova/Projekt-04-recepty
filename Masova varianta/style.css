@@ -20,21 +20,329 @@ notebook/pc:
 
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.recept-nazev {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.recept-nazev2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.recept-kategorie {
+    font-size: 14px;
+}
+
+.recept-komentare {
+    font-size: 14px;
 }
 
 .paticka {
     text-align: center;
     font-size: 14px;
     color: silver;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .paticka a {
     color: silver;
 }
 
+.hlavni-recept {
+    background: url(images/burger.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
-/* ------------------------------- */
-/* ----- DOLE BUDE TVOJE CSS ----- */
-/* ------------------------------- */
+.recept2 {
+    background: url(images/sushi.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 
+.recept3 {
+    background: url(images/kure.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.recept4 {
+    background: url(images/rajcata.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.recept5 {
+    background: url(images/grilovani.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* mobil*/
+
+@media (max-width: 480px) {
+
+.hlavni-recept {
+    min-height: 200px;
+    border: 2px solid white;
+    padding: 10px;
+    flex: 1 1 100%;
+}
+
+.recept2 {
+    min-height: 90px;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom: none;
+    padding: 10px;
+    flex: 1 1 25%;
+}
+
+.recept3 {
+    min-height: 90px;
+    border: 2px solid white;
+    padding: 10px;
+    flex: 1 1 25%;
+}
+
+.recept4 {
+    min-height: 90px;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom: none;
+    padding: 10px;
+    flex: 1 1 25%;
+}
+
+.recept5 {
+    min-height: 90px;
+    border: 2px solid white;
+    padding: 10px;
+    flex: 1 1 25%;
+}
+
+.hlavni-recept {
+    font-size: 28px;
+}
+
+.recept-nazev {
+    font-size: 18px;
+}
+
+.recept-meta {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recept-kategorie {
+    flex: 1 1 50%;
+    text-align: start;
+}
+
+.recept-komentare {
+    flex: 1 1 50%;
+    text-align: end;
+}
+
+.recept-nazev {
+    margin: 20% 0 0 0;
+}
+
+.recept-nazev2 {
+    margin: 40% 0 0 0;
+}
+
+}
+
+
+/*tablet*/
+
+@media (min-width: 480px) and (max-width: 860px) {
+
+.hlavni-recept {
+    min-height: 250px;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.recepty {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recept2 {
+    min-height: 150px;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    padding: 20px;
+    flex: 1 1 50%;
+}
+
+.recept3 {
+    min-height: 150px;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom: none;
+    padding: 20px;
+    flex: 1 1 50%;
+}
+
+.recept4 {
+    min-height: 150px;
+    border: 2px solid white;
+    border-right: none;
+    padding: 20px;
+    flex: 1 1 50%;
+}
+
+.recept5 {
+    min-height: 150px;
+    border: 2px solid white;
+    padding: 20px;
+    flex: 1 1 50%;
+}
+
+.hlavni-recept {
+    font-size: 36px;
+}
+    
+.recept-nazev {
+    font-size: 22px;
+}
+
+.recept-meta {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recept-kategorie {
+    flex: 1 1 50%;
+    text-align: start;
+}
+
+.recept-komentare {
+    flex: 1 1 50%;
+    text-align: end;
+}
+
+.recept-nazev {
+    margin: 40% 0 0 0;
+}
+
+.recept-nazev2 {
+    margin: 60% 0 0 0;
+}
+
+}
+
+
+/*pc*/
+
+@media (min-width: 860px) {
+
+.doporucujeme {
+    display: flex;
+}
+
+.hlavni-recept {
+    min-height: 400px;
+    border: 2px solid white;
+    padding: 20px;
+    flex: 1 1 30%;
+}
+
+.recepty {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 60%;
+}
+
+.recept2 {
+    min-height: 200px;
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    flex: 1 1 50%;
+}
+
+.recept3 {
+    min-height: 200px;
+    border: 2px solid white;
+    padding: 20px;
+    flex: 1 1 50%;
+}
+
+.recept4 {
+    min-height: 200px;
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 20px;
+    flex: 1 1 50%;
+}
+
+.recept5 {
+    min-height: 200px;
+    border: 2px solid white;
+    border-top: none;
+    padding: 20px;
+    flex: 1 1 50%;
+}
+
+.hlavni-recept {
+    font-size: 48px;
+}
+
+.recept-nazev {
+    font-size: 28px;
+}
+
+.recept-meta {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recept-kategorie {
+    flex: 1 1 50%;
+    text-align: start;
+}
+
+.recept-komentare {
+    flex: 1 1 50%;
+    text-align: end;
+}
+
+.recept-nazev {
+    margin: 40% 0 0 0;
+}
+
+.recept-nazev2 {
+    margin: 80% 0 0 0;
+}
+
+}
+
+/*Leni, chtěla jsem v rámci procvičování po najetí na obrázek nechat obrázek zvětšit do prostoru, ale nepodařilo se (resp. se posouval na pozadí, ale nevystoupil nad ostatní obrázky). Mohla bys mi prosím napovědět?
+Tuším, že řešení v recept-nazev a recept-nazev2 pomocí marginu není ideální, ale nedařilo se mi z toho udělat flexbox a zarovnat ho doleva dolů. Rovněž prosím příp. o radu. 
+Děkuji, Eva
