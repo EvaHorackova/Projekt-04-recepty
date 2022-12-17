@@ -60,35 +60,35 @@ body {
 }
 
 .hlavni-recept {
-    background: url(images/burger.jpg);
+    background: url(burger.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 .recept2 {
-    background: url(images/sushi.jpg);
+    background: url(sushi.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 .recept3 {
-    background: url(images/kure.jpg);
+    background: url(kure.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 .recept4 {
-    background: url(images/rajcata.jpg);
+    background: url(rajcata.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 .recept5 {
-    background: url(images/grilovani.jpg);
+    background: url(grilovani.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
